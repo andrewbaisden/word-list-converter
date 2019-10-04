@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 const App = ({word: {test}, getWords}) => {
     useEffect(() => {
-        getWords();
+        getWords("24");
     }, [])
     return(
         <Fragment>
