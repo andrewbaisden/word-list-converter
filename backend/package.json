@@ -6,11 +6,14 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "node app.js",
-		"dev": "pm2 start app.js"
+		"dev": "pm2 start app.js",
+		"client": "cd ../frontend && npm run start",
+		"servers": "concurrently \"npm run start\" \"npm run client\""
 	},
 	"author": "Andrew Baisden",
 	"license": "MIT",
 	"dependencies": {
+		"concurrently": "^4.1.2",
 		"express": "^4.17.1",
 		"pm2": "^3.5.1"
 	}
