@@ -1,9 +1,9 @@
 import { GET_WORD, SET_LOADING} from "../actions/types";
 
 const intitalState = {
-    test: "hello world",
     loading: false,
-    words: null
+    words: null,
+    phoneKeys: [2,3,4,5,6,7,8,9]
 }
 
 export default (state = intitalState, action) => {

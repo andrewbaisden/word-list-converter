@@ -8,7 +8,7 @@ exports.getWord = (req, res, next) => {
 			res.json(word);
 		} else if (!word) {
 			console.log('No ID found, redirecting back to words page');
-			res.redirect('/words');
+			// res.redirect('/words');
 		}
 	});
 };
