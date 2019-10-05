@@ -20,10 +20,13 @@ html {
   box-sizing: border-box;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  display: grid;
-  justify-content: center;
+}
+
+header {
+    margin: 2rem auto;
+    text-align: center;
 }
 
 h1 {
@@ -33,8 +36,9 @@ h1 {
 }
 
 .container {
+    margin: 0 auto;
     padding: 5rem;
-    max-width: 120rem; /* 1200px */
+    max-width: 40rem; /* 1200px */
     background: black;
     height: 80rem;
 }
@@ -115,7 +119,11 @@ const App = ({word: {words, phoneKeys}, getWords}) => {
     return(
         <Fragment>
             <GlobalStyle />
+            <header>
             <h1>T9 Phone Keypad App</h1>
+            <h2>User Manual</h2>
+            <p>Click on two corresponding numbers and then click on the call button to display the output on the phone screen.</p>
+            </header>
             <div className="container">
                 <PhoneWords />
                 <div className="phone-keypad">
