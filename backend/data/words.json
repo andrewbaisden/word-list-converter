@@ -1,7 +1,7 @@
 [
 	{
 		"id": "23",
-		"words": ["ad", "ae", "af", "bd", "be", "bf", "cd", "cd", "cf"]
+		"words": ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
 	},
 	{
 		"id": "24",
@@ -10,5 +10,49 @@
 	{
 		"id": "25",
 		"words": ["aj", "ak", "al", "bj", "bk", "bl", "cj", "ck", "cl"]
+	},
+	{
+		"id": "26",
+		"words": ["am", "an", "ao", "bm", "bn", "bo", "cm", "cn", "co"]
+	},
+	{
+		"id": "27",
+		"words": ["ap", "aq", "ar", "as", "bp", "bq", "br", "bs", "cp", "cq", "cr", "cs"]
+	},
+	{
+		"id": "28",
+		"words": ["at", "au", "av", "bt", "bu", "bv", "ct", "cu", "cv"]
+	},
+	{
+		"id": "29",
+		"words": ["aw", "ax", "ay", "az", "bw", "bx", "by", "bz"]
+	},
+	{
+		"id": "32",
+		"words": ["da", "db", "dc", "ea", "eb", "ec", "fa", "fb", "fc"]
+	},
+	{
+		"id": "34",
+		"words": ["dg", "dh", "di", "eg", "eh", "ei", "fg", "fh", "fi"]
+	},
+	{
+		"id": "35",
+		"words": ["dj", "dk", "dl", "ej", "ek", "el", "fj", "fk", "fl"]
+	},
+	{
+		"id": "36",
+		"words": ["dm", "dn", "do", "em", "en", "eo", "fm", "fn", "fo"]
+	},
+	{
+		"id": "37",
+		"words": ["dp", "dq", "dr", "ds", "ep", "eq", "er", "es", "fp", "fq", "fr", "fs"]
+	},
+	{
+		"id": "38",
+		"words": ["dt", "du", "dv", "et", "eu", "ev", "ft", "fu", "fv"]
+	},
+	{
+		"id": "39",
+		"words": ["dw", "dx", "dy", "dz", "ew", "ex", "ey", "ez", "fw", "fx", "fy", "fz"]
 	}
 ]

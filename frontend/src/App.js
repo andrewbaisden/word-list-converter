@@ -103,7 +103,7 @@ const App = ({word: {words, phoneKeys}, getWords}) => {
     
    const myArray = []
 
-   const seeArr = () => {
+   const setWords = () => {
     console.log(myArray)
         if(myArray.length === 2) {
             const newArry = myArray.toString().replace(/,/g,"");
@@ -122,7 +122,7 @@ const App = ({word: {words, phoneKeys}, getWords}) => {
             <header>
             <h1>T9 Phone Keypad App</h1>
             <h2>User Manual</h2>
-            <p>Click on two corresponding numbers and then click on the call button to display the output on the phone screen.</p>
+            <p>Click on two corresponding numbers and then click on the call button to display the output on the phone screen. Note only 23 - 39 are functional.</p>
             </header>
             <div className="container">
                 <PhoneWords />
@@ -140,7 +140,7 @@ const App = ({word: {words, phoneKeys}, getWords}) => {
                 <button className="phone-star">*</button>
                 <button><div className="phone-num"><div>0</div><div className="phone-letters phone-plus">+</div></div></button>
                 <button>#</button>
-                <button className="btn-call" onClick={() => seeArr()}><img src={phone} alt="Phone Call" className="phone-icon" /></button>
+                <button className="btn-call" onClick={() => setWords()}><img src={phone} alt="Phone Call" className="phone-icon" /></button>
                 <button onClick={() => myArray.pop()}>x</button>
                 </div>
             </div>
