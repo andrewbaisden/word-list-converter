@@ -6,14 +6,16 @@ const PhoneWords = ({word: {words, phoneKeys}}) => {
 
     if(!words){
         return(
-            <div>Loading...</div>
+            <div className="phone-display"></div>
         )
     }
 
     return (
-        <div>{words.words.map(word => (
-            <p key={word}>{word}</p>
-        ))}</div>
+        <div>
+            <ul className="phone-display">{words.words.map(word => (
+            <li key={word}>{word}</li>
+        ))}</ul></div>
+        
     )
 }
 
