@@ -11,10 +11,10 @@ const PhoneWords = ({word: {words, phoneKeys}}) => {
     }
 
     return (
-        <div>
+       
             <ul className="phone-display">{words.words.map(word => (
             <li key={word}>{word}</li>
-        ))}</ul></div>
+        ))}</ul>
         
     )
 }

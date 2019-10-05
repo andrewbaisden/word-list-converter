@@ -47,6 +47,7 @@ button {
     border: 0;
     color: white;
     padding: 2rem;
+    height: 8rem;
 }
 button:hover {
     background: #7b7b7b;
@@ -65,15 +66,33 @@ button:hover {
 .phone-icon {
     height: 4rem;
 }
+
 .phone-display {
+    text-align: center;
     color: white;
+    height: 1rem;
 }
 
 .phone-display li {
     display: inline-block;
     font-size: 2rem;
-    padding-right: 0.3rem;
+    padding-right: 0.4rem;
 }
+.phone-num {
+    margin-top: -1rem;
+}
+.phone-letters {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+.phone-star {
+    font-size: 5rem;
+}
+.phone-plus {
+    font-size: 1.5rem;
+}
+
 `
 
 const App = ({word: {words, phoneKeys}, getWords}) => {
@@ -102,16 +121,16 @@ const App = ({word: {words, phoneKeys}, getWords}) => {
                 <div className="phone-keypad">
                
                 <button>1</button>
-                <button onClick={() => myArray.push("2")}>2</button>
-                <button onClick={() => myArray.push("3")}>3</button>
-                <button onClick={() => myArray.push("4")}>4</button>
-                <button onClick={() => myArray.push("5")}>5</button>
-                <button onClick={() => myArray.push("6")}>6</button>
-                <button onClick={() => myArray.push("7")}>7</button>
-                <button onClick={() => myArray.push("8")}>8</button>
-                <button onClick={() => myArray.push("9")}>9</button>
-                <button>*</button>
-                <button>0</button>
+                <button onClick={() => myArray.push("2")}><div className="phone-num"><div>2</div><div className="phone-letters">ABC</div></div></button>
+                <button onClick={() => myArray.push("3")}><div className="phone-num"><div>3</div><div className="phone-letters">DEF</div></div></button>
+                <button onClick={() => myArray.push("4")}><div className="phone-num"><div>4</div><div className="phone-letters">GHI</div></div></button>
+                <button onClick={() => myArray.push("5")}><div className="phone-num"><div>5</div><div className="phone-letters">JKL</div></div></button>
+                <button onClick={() => myArray.push("6")}><div className="phone-num"><div>6</div><div className="phone-letters">MNO</div></div></button>
+                <button onClick={() => myArray.push("7")}><div className="phone-num"><div>7</div><div className="phone-letters">PQRS</div></div></button>
+                <button onClick={() => myArray.push("8")}><div className="phone-num"><div>8</div><div className="phone-letters">TUV</div></div></button>
+                <button onClick={() => myArray.push("9")}><div className="phone-num"><div>9</div><div className="phone-letters">WXYZ</div></div></button>
+                <button className="phone-star">*</button>
+                <button><div className="phone-num"><div>0</div><div className="phone-letters phone-plus">+</div></div></button>
                 <button>#</button>
                 <button className="btn-call" onClick={() => seeArr()}><img src={phone} alt="Phone Call" className="phone-icon" /></button>
                 <button onClick={() => myArray.pop()}>x</button>
