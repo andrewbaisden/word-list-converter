@@ -1,5 +1,7 @@
 # T9 Word List Converter App
 
+![T9 Word List Converter App](https://res.cloudinary.com/d74fh3kw/image/upload/v1582581718/word_list_converter_i5htwa.jpg 'T9 Word List Converter App')
+
 ## Installation
 
 1. Use your terminal app to `cd` into the root folders for backend and frontend and use the command `npm install`.
