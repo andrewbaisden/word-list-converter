@@ -1,6 +1,6 @@
 # T9 Word List Converter App
 
-![T9 Word List Converter App](https://res.cloudinary.com/d74fh3kw/image/upload/v1582581718/word_list_converter_i5htwa.jpg 'T9 Word List Converter App')
+![T9 Word List Converter App](/img/word-list-converter.jpeg 'T9 Word List Converter App')
 
 ## Installation
 
